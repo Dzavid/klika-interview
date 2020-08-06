@@ -40,7 +40,7 @@ if __name__ == '__main__':
     filename = args.csvName
 
     if (filename.split('.')[1] != 'csv'):
-        print('Given files does not contain csv extension.')
+        print('Given file does not contain csv extension.')
         exit()
 
     if numofheaderlines:
