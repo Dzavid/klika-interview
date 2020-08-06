@@ -4,6 +4,8 @@ This repository contains Python script and CSV file which are part of the job ap
 
 The script exports temperature-resistance pairs from thermistor datasheet and exports them to JSON file.
 
+Python version used: **3.8.5**
+
 Run script by using 
 `python interview_solution.py -c fileName.csv`
 or 
@@ -20,7 +22,7 @@ In case you want to skip first 100 lines of CSV file, command should be
 
 **Important note**
 
-There is a pilcrow (¶) symbol in the header of CSV file. Python can't process it (even if you skip header lines). Because of this, Python script will terminate with the following error:
+There is a pilcrow (Â¶) symbol in the header of CSV file. Python can't process it (even if you skip header lines). Because of this, Python script will terminate with the following error:
 
 `UnicodeDecodeError: 'charmap' codec can't decode byte 0x83 in position 34: character maps to <undefined>`
 
