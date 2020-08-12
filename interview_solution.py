@@ -4,7 +4,7 @@ import argparse
 
 
 def importandexportdata(filename, numofheaderlines=6):
-    with open(filename, mode='r') as csv_file:
+    with open(filename, mode='r', encoding="Latin-1") as csv_file:
 
         valuesdict = dict()
         fieldnames = ['Temp', 'Min', 'Nom', 'Max', 'B25/T', '-dT', 'dT']
